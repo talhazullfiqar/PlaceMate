@@ -6,8 +6,6 @@ const fs = require("fs");
 const placesRoutes = require("./routes/places-routes");
 const usersRoutes = require("./routes/users-routes");
 const HttpError = require("./models/http-error");
-const databaseURL =
-  "mongodb+srv://talha:talha27427@mycluster.jmbf7.mongodb.net/Mern?retryWrites=true&w=majority&appName=MyCluster";
 const PORT = 5000;
 const app = express();
 app.use(bodyParser.json());
